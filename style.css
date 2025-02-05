@@ -1,0 +1,78 @@
+* {
+  font-family: 'Calibri';
+}
+
+.btn, button {
+  position: relative;
+  padding: 10px;
+  text-decoration: none; 
+  color: rgb(0, 0, 0);
+  background-color: #98e988;
+  transition: 0.5s;
+  border: none;
+  padding: 10px 10px 10px;
+  
+ 
+
+  
+}
+.сlass {
+  background-color: #98e988;
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 10px;
+  border-top:2px solid green;
+}
+.pane {
+  display:flex;
+   justify-content: space-between; 
+  align-items: center;
+}
+.remove-botton {
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: 2px solid black;
+  position: absolute;
+margin-top: 0px;
+margin-left: 500px;
+  font-weight: bold;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  cursor: pointer;
+  transition: 0.5s;
+  
+}
+.remove-botton:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+
+ @media screen and (min-width: 601px){
+    
+  .remove-botton {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: 2px solid black;
+    position: absolute;
+  margin-top: 10px;
+  margin-left: 1200px;
+    font-weight: bold;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    cursor: pointer;
+    transition: 0.5s;
+    
+  }
+
+} 
+
+
+
+
